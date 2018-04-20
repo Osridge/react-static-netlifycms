@@ -12,3 +12,5 @@ export default withSiteData(() => (
     </div>
   </div>
 ))
+
+document.body.style.background = "#000"
