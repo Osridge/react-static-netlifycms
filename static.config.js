@@ -41,6 +41,10 @@ function getPosts () {
   return getFiles()
 }
 
+function convertJson () {
+  console.log('test');
+}
+
 export default {
 
   getSiteData: () => ({
@@ -76,5 +80,6 @@ export default {
         component: 'src/containers/404',
       },
     ]
+    convertJson();
   },
 }
