@@ -45,7 +45,6 @@ function convertJson () {
   console.log('test');
 }
 
-console.log('testing')
 
 export default {
 
