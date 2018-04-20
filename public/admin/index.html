@@ -16,9 +16,9 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.js"></script>
-  <!-- <script src="../uploads/assets/jquery.min.js"></script>
+  <script src="../uploads/assets/jquery.min.js"></script>
   <script src="../uploads/assets/js/bootstrap.min.js"></script>
-  <script src="../uploads/assets/parallax.min.js"></script> -->
+  <script src="../uploads/assets/parallax.min.js"></script>
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
@@ -28,6 +28,11 @@
           });
         }
       });
+    }
+  </script>
+  <script>
+    if ($('body').length){
+      console.log('script works');
     }
   </script>
 </body>
