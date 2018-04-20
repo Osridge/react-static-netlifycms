@@ -59,6 +59,10 @@ export default {
         component: 'src/containers/About',
       },
       {
+        path: '/test',
+        component: 'src/containers/test',
+      },
+      {
         path: '/blog',
         component: 'src/containers/Blog',
         getData: () => ({
