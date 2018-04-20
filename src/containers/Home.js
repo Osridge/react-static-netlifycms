@@ -7,5 +7,8 @@ export default withSiteData(() => (
   <div>
     <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
     <img src={logoImg} alt="" />
+    <div class="testUpload">
+      <h2>testing</h2>
+    </div>
   </div>
 ))
