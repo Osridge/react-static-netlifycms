@@ -41,12 +41,6 @@ function getPosts () {
   return getFiles()
 }
 
-function changeToBlack(){
-  console.log('func')
-  document.body.style.backgroundColor = "black";
-}
-changeToBlack()
-
 
 export default {
 
