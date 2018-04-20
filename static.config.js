@@ -1,3 +1,6 @@
+import { Bootstrap } from './public/uploads/assets/css'
+// import { ScriptKiddie } from './public/uploads/assets/js'
+
 const fs = require('fs')
 const klaw = require('klaw')
 const path = require('path')
@@ -43,6 +46,24 @@ function getPosts () {
 
 
 export default {
+
+  renderToHtml: (render, Comp, meta) => {
+    const sheet = new Bootstrap()
+    // The styles are collected from each page component
+    const html = render(sheet.collectStyles(<Comp />))
+    // The collected page styles are stored in `meta`
+    meta.styleTags = sheet.getStyleElement()
+    // Return the html string for the page
+    return html
+  },
+  Document: ({ Html, Head, Body, children, renderMeta }) => (
+    // `renderMeta.styleTags` contains the styles we need to inject
+    // into the head of each page.
+    <Html>
+      <Head>{renderMeta.styleTags}</Head>
+      <Body>{children}</Body>
+    </Html>
+  ),
 
   getSiteData: () => ({
     title: 'React Static with Netlify CMS',
