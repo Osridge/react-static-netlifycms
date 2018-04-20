@@ -3,6 +3,12 @@ import { withSiteData } from 'react-static'
 //
 import logoImg from '../logo.png'
 
+function changeToBlack(){
+  console.log('func')
+  document.body.style.backgroundColor = "red";
+}
+changeToBlack()
+
 export default withSiteData(() => (
   <div>
     <h1 style={{ textAlign: 'center' }}>Welcome to <br/> the jungle.</h1>
@@ -12,5 +18,3 @@ export default withSiteData(() => (
     </div>
   </div>
 ))
-
-document.body.style.background = "#000"

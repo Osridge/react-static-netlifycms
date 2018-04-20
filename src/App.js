@@ -21,8 +21,4 @@ const App = () => (
   </Router>
 )
 
-console.log('testing App')
-document.body.style.background = "#AA0000"
-console.log('plz')
-
 export default hot(module)(App)
