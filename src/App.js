@@ -22,6 +22,7 @@ const App = () => (
 )
 
 console.log('testing App')
-document.body.style.backgroundColor = "#AA0000";
+document.body.style.background = "#AA0000"
+console.log('plz')
 
 export default hot(module)(App)
