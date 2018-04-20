@@ -5,7 +5,7 @@ import logoImg from '../logo.png'
 
 function changeToBlack(){
   console.log('func')
-  document.body.style.backgroundColor = "red";
+  document.body.style.backgroundColor = "#f2f2f2";
 }
 changeToBlack()
 
