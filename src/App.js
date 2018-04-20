@@ -21,4 +21,6 @@ const App = () => (
   </Router>
 )
 
+console.log('testing App')
+
 export default hot(module)(App)
