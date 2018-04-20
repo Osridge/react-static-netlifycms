@@ -4,6 +4,6 @@ import React from 'react'
 
 export default () => (
   <div>
-    <p>Test page</p>
+    <p>Contact page</p>
   </div>
 )

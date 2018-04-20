@@ -12,8 +12,9 @@ const App = () => (
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/test">Test</Link>
+        <Link to="/attorneys">Attorneys</Link>
         <Link to="/blog">Blog</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
       <div className="content">
         <Routes />

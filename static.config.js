@@ -59,8 +59,8 @@ export default {
         component: 'src/containers/About',
       },
       {
-        path: '/test',
-        component: 'src/containers/test',
+        path: '/attorneys',
+        component: 'src/containers/Attorneys',
       },
       {
         path: '/blog',
@@ -75,6 +75,10 @@ export default {
             post,
           }),
         })),
+      },
+      {
+        path: '/contact',
+        component: 'src/containers/Contact',
       },
       {
         is404: true,
