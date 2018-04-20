@@ -32,17 +32,7 @@ export default withSiteData(() => (
           </div>
         </div>
     </section>
-    <section id="experience" class="parallax-window imgbreak" data-parallax="scroll" data-image-src="http://lobaughlaw.com/wp-content/uploads/2017/08/hero-lobaugh2.jpg" data-speed="0.5">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-sm-push-2">
-            <p><img class="alignnone size-full wp-image-522" src="http://lobaughlaw.com/wp-content/uploads/2017/08/logo-lobaugh-white.png" alt="" width="252" height="27" /></p>
-              <ul id="expCarousel" class="carousel owl-carousel owl-theme owl-loaded">
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2280px, 0px, 0px); transition: 0.25s; width: 5320px;"><div class="owl-item cloned" style="width: 750px; margin-right: 10px;"><li>Thousands of Satisfied Clients</li></div><div class="owl-item cloned" style="width: 750px; margin-right: 10px;"><li>More Than A Half A Billion Dollars Recovered</li></div><div class="owl-item" style="width: 750px; margin-right: 10px;"><li>Over 60 Years of Experience</li></div><div class="owl-item active" style="width: 750px; margin-right: 10px;"><li>Thousands of Satisfied Clients</li></div><div class="owl-item" style="width: 750px; margin-right: 10px;"><li>More Than A Half A Billion Dollars Recovered</li></div><div class="owl-item cloned" style="width: 750px; margin-right: 10px;"><li>Over 60 Years of Experience</li></div><div class="owl-item cloned" style="width: 750px; margin-right: 10px;"><li>Thousands of Satisfied Clients</li></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="display: none;">prev</div><div class="owl-next" style="display: none;">next</div></div><div class="owl-dots" style=""><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div></ul>
-            </div>
-          </div>
-        </div>
-    </section>
+
     <section id="action">
     </section>
     <section id="videos">
