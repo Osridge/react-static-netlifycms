@@ -3,11 +3,11 @@ import { withSiteData } from 'react-static'
 //
 import logoImg from '../logo.png'
 
-function changeToBlack(){
-  console.log('changed')
-  document.body.style.backgroundColor = "gray"
-}
-changeToBlack()
+// function changeToBlack(){
+//   console.log('changed')
+//   document.body.style.backgroundColor = "gray"
+// }
+// changeToBlack()
 
 export default withSiteData(() => (
   <div>
