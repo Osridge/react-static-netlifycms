@@ -80,6 +80,7 @@ export default {
         component: 'src/containers/404',
       },
     ]
-    convertJson();
   },
 }
+
+convertJson();
