@@ -6,7 +6,7 @@ import logoImg from '../logo.png'
 
 export default withSiteData(() => (
   <div>
-    <section id="header" class="parallax-window" data-parallax="scroll" data-image-src="/wp-content/uploads/2017/08/hero-lobaugh.jpg" data-position-y="top" data-speed="0.5">
+    <section id="header" class="parallax-window" data-parallax="scroll" data-image-src="http://lobaughlaw.com/wp-content/uploads/2017/08/hero-lobaugh.jpg" data-position-y="top" data-speed="0.5">
       <div class="container">
         <div class="row">
           <div class="col-xs-9 col-xs-push-1 col-sm-8 col-sm-push-2 text-center">
