@@ -4,8 +4,8 @@ import { withSiteData } from 'react-static'
 import logoImg from '../logo.png'
 
 function changeToBlack(){
-  console.log('func')
-  document.body.style.backgroundColor = "#f2f2f2";
+  console.log('changed')
+  document.body.style.backgroundColor = "#f2f2f2"
 }
 changeToBlack()
 
