@@ -34,3 +34,8 @@ export default withSiteData(() => (
     </section>
   </div>
 ))
+
+
+$( document ).ready(function() {
+console.log( "ready!" );
+});
