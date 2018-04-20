@@ -48,6 +48,8 @@ export default withSiteData(() => (
 ))
 
 
+if ($('body').length){
+  console.log( "ready!" );
+}
 
-console.log( "ready!" );
 
