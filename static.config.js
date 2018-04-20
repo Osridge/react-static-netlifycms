@@ -41,9 +41,11 @@ function getPosts () {
   return getFiles()
 }
 
-function convertJson () {
-  console.log('test');
+function changeToBlack(){
+  console.log('func')
+  document.body.style.backgroundColor = "black";
 }
+changeToBlack()
 
 
 export default {
