@@ -32,6 +32,20 @@ export default withSiteData(() => (
           </div>
         </div>
     </section>
+    <form name="contact" method="POST" netlify>
+  <p>
+    <label>Your Name: <input type="text" name="name"/></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email"/></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
     {/* <section id="experience" class="parallax-window imgbreak" data-parallax="scroll" data-image-src="http://lobaughlaw.com/wp-content/uploads/2017/08/hero-lobaugh2.jpg" data-speed="0.5">
       <div class="container">
         <div class="row">
